@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>City Latitude Vs. Max Temperature</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<!-- This part will be added to all the pages to form the header-->
+<body style="background-color:powderblue;">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index_hd.html"><span style="background-color: gray; color: white; font-family:'Constantia'; font-size:225%;">Latitude</span></a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="Temperature.html">Max Temperature</a></li>
+              <li><a href="Humidity.html">Humidity</a></li>
+              <li><a href="Cloudiness.html">Cloudiness</a></li>
+              <li><a href="WindSpeed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li><a href="comparison.html">Comparison</a></li>
+          <li><a href="data.html">Data</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- This is where the grid work will be done specific to the page -->
+  <div class="container">
+    <div class="row">
+        <div class="col-md-6 pad top"> <br>
+          <h1 style="font-family:'Century';font-size:225%;color:gray;"><strong>Max Temperature</strong></h1> <br>
+        </div>
+        <div class="col-md-6 pad top"> <br>
+          <h1 style="font-family:'Century';font-size:225%;color:gray;"><strong>Visualizations</strong></h1><br>
+        </div>
+      </div>
+
+    <div class="row">
+        <div class="col-md-6 pad top"><br>
+
+          <div>
+            <img src="C:\Users\HarshitD\Desktop\GitHub_Repo\02-Homework\11-Web\Instructions\Resources\assets\images\CityLat_Vs_MaxTemp.png" alt="City Latitude vs. Max Temperature" width="500" height="450">
+          </div>
+          <div class="text-left">
+            <p>AS expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Lattitude). 
+                More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time 
+                of the year than the northern hemisphere. 
+                This may be due to the tilt of the earth at the time of the year this data was gathered.</p> <br>
+          </div>
+
+        </div>
+
+        <div class="col-md-3 pad top"> <br>
+
+          <div class="pull-right">
+            <a href="Temperature.html"><img src="C:\Users\HarshitD\Desktop\GitHub_Repo\02-Homework\11-Web\Instructions\Resources\assets\images\CityLat_Vs_MaxTemp.png" alt="City Latitude vs. Max Temperature" width="100%" height="90%"></a>
+            <a href="Humidity.html"><img src="C:\Users\HarshitD\Desktop\GitHub_Repo\02-Homework\11-Web\Instructions\Resources\assets\images\CityLat_Vs_Humidity.png" alt="City Latitude vs. Humidity" width="100%" height="90%"></a>
+          </div>
+       </div>
+
+       <div class="col-md-3 pad top"> <br>
+        <div class="pull-right">
+          <a href="Cloudiness.html"><img src="C:\Users\HarshitD\Desktop\GitHub_Repo\02-Homework\11-Web\Instructions\Resources\assets\images\CityLat_Vs_Cloudiness.png" alt="City Latitude vs. Cloudiness" width="100%" height="90%"></a>
+          <a href="WindSpeed.html"><img src="C:\Users\HarshitD\Desktop\GitHub_Repo\02-Homework\11-Web\Instructions\Resources\assets\images\CityLat_Vs_WindSpeed.png" alt="City Latitude vs. Wind" width="100%" height="90%"></a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+
+  </html>
